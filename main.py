@@ -18,7 +18,6 @@ INCLUDE_SYMBOLS = 0
 def set_password_length(value):
     global PASSWORD_LENGTH
     PASSWORD_LENGTH = int(value)
-    print(PASSWORD_LENGTH)
 
 
 def include_caps_letter():
@@ -28,10 +27,8 @@ def include_caps_letter():
             NUM_CAP_LETTERS = int(PASSWORD_LENGTH) - int(NUM_SYMBOLS) - int(NUM_NUMBERS)
         else:
             NUM_CAP_LETTERS = math.floor((int(PASSWORD_LENGTH) - int(NUM_SYMBOLS) - int(NUM_NUMBERS)) / 2)
-        print(f"include cap letters: {NUM_CAP_LETTERS}")
     else:
         NUM_CAP_LETTERS = 0
-        print(f"include cap letters: {NUM_CAP_LETTERS}")
 
 
 def include_small_letter():
@@ -41,10 +38,8 @@ def include_small_letter():
             NUM_SMALL_LETTERS = int(PASSWORD_LENGTH) - int(NUM_SYMBOLS) - int(NUM_NUMBERS)
         else:
             NUM_SMALL_LETTERS = math.floor((int(PASSWORD_LENGTH) - int(NUM_SYMBOLS) - int(NUM_NUMBERS)) / 2)
-        print(f"include letters: {NUM_SMALL_LETTERS}")
     else:
         NUM_SMALL_LETTERS = 0
-        print(f"include letters: {NUM_SMALL_LETTERS}")
 
 
 def choose_num_numbers():
@@ -56,7 +51,6 @@ def choose_num_numbers():
 def choose_num_symbols():
     global NUM_SYMBOLS
     NUM_SYMBOLS = int(spinbox_2.get())
-    print(NUM_SYMBOLS)
 
 
 def include_num():
@@ -65,11 +59,9 @@ def include_num():
     INCLUDE_NUMBERS = checked_state_3.get()
     if INCLUDE_NUMBERS == 1:
         NUM_NUMBERS = int(spinbox_1.get())
-        print(NUM_NUMBERS)
         spinbox_1.config(state='normal')
     else:
         NUM_NUMBERS = 0
-        print(NUM_NUMBERS)
         spinbox_1.config(state='disabled')
 
 
@@ -79,11 +71,9 @@ def include_symbol():
     INCLUDE_SYMBOLS = checked_state_4.get()
     if INCLUDE_SYMBOLS == 1:
         NUM_SYMBOLS = int(spinbox_2.get())
-        print(NUM_SYMBOLS)
         spinbox_2.config(state='normal')
     else:
         NUM_SYMBOLS = 0
-        print(NUM_SYMBOLS)
         spinbox_2.config(state='disabled')
 
 
