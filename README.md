@@ -34,11 +34,10 @@ This project is a password manager user interface built using Tkinter, Python, a
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](https://github.com/Viraj2112/Password_Manager/blob/main/Scr_1.JPG)
 *Screenshot of the password manager user interface*
 
-![Screenshot 2](screenshots/screenshot2.png)
-*Screenshot of the password generator tool*
+![Screenshot 2](https://github.com/Viraj2112/Password_Manager/blob/main/Scr_2.JPG)
 
 ## Contributing
 
