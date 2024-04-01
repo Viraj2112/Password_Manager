@@ -19,7 +19,7 @@ This project is a password manager user interface built using Tkinter, Python, a
 1. **Clone Repository**: Clone this repository to your local machine using Git.
 
     ```
-    git clone https://github.com/Viraj2112/Password-Manager.git
+    git clone https://github.com/Viraj2112/Password_Manager.git
     ```
 
 2. **Install Dependencies**: Ensure you have Python installed on your machine. Additionally, you may need to install Tkinter if it's not already available.
